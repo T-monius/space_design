@@ -1,0 +1,135 @@
+@import url("ls_reset.css");
+
+body {
+  font: 20px "Avenir", "Nunito", "Helvetica", Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  background: #2f2840 url("../images/bg_body.gif");
+  font-size: 28px;
+  padding-top: 130px;
+  padding-bottom: 50px;
+}
+
+ul[role="banner"] {
+  margin-top: 130px;
+}
+
+li {
+  display: inline;
+  text-transform: uppercase;
+}
+
+ul[role="banner"] > li:first-of-type {
+  padding-right: 70px;
+}
+
+ul[role="banner"] > li:last-of-type {
+  padding-left: 70px;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #bebebf;
+}
+
+.current {
+  font-weight: bold;
+  color: #6db9ff;
+}
+
+div {
+  padding-top: 125px;
+}
+
+div h2 {
+  font-size: 36px;
+  color: #45494d;
+  padding-bottom: 50px;
+}
+
+.team h2 {
+  padding-bottom: 0px;
+}
+
+h2 span {
+  font-size: 24px;
+  vertical-align: 5px;
+  padding: 0 24px;
+}
+
+div h3 {
+  font-size: 1.5rem;
+  color: #3e59b2;
+}
+
+div article {
+  padding: 20px 185px 85px 185px;
+}
+
+.projects img {
+  position: relative;
+  top: -50px;
+}
+
+.team ul {
+  padding-bottom: 200px;
+}
+
+figure {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+figcaption {
+  color: #3e59b2;
+}
+
+footer {
+  background: #e7e7e7;
+  color: #b2b2b2;
+  padding: 90px 0 80px 0;
+}
+
+footer p {
+  padding: 0 350px 45px 350px;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0 60px;
+}
+
+footer li a {
+  background:
+    transparent
+    url("http://d3jtzah944tvom.cloudfront.net/202/projects/lesson_7/spacedesign/images/icons_social-media.png")
+    0 0 no-repeat;
+  display: block;
+  height: 46px;
+  overflow: hidden;
+  text-indent: -8685px;
+  width: 46px;
+}
+
+footer li a.twitter {
+  background-position: 0 0;
+}
+
+footer li a.facebook {
+  background-position: 0 -46px;
+}
+
+footer li a.email {
+  background-position: 0 -92px;
+}
+
+footer li a.instagram {
+  background-position: 0 -138px;
+}
